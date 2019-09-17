@@ -28,17 +28,20 @@
         android:layout_weight=".7"
         android:text="CEDULA"
         android:textSize="20dp" />
-    <EditText
-        android:id="@+id/et_editar_cedula"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight=".3"
-        android:ems="10"
-        android:hint="CEDULA"
-        android:inputType="textPersonName" />
 
 
-</LinearLayout>
+        <EditText
+            android:id="@+id/et_editar_cedula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:background="@drawable/redondo"
+            android:ems="10"
+            android:hint="CEDULA"
+            android:inputType="textPersonName" />
+
+
+    </LinearLayout>
     <LinearLayout
         android:id="@+id/ll_editar_nombre"
         android:layout_width="match_parent"
@@ -64,6 +67,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight=".3"
+            android:background="@drawable/redondo"
             android:ems="10"
             android:hint="NOMBRE"
             android:inputType="textPersonName" />
@@ -95,6 +99,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight=".3"
+            android:background="@drawable/redondo"
             android:ems="10"
             android:hint="APELLIDO"
             android:inputType="textPersonName" />

@@ -95,7 +95,7 @@ public class DetalleActivity extends AppCompatActivity {
                                                 Intent inicio = new Intent(DetalleActivity.this, MainActivity.class);
                                                 startActivity(inicio);
                                                 finish();
-                                            
+
                                         }
                                     })
                                     .addOnFailureListener(new OnFailureListener() {
